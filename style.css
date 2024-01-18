@@ -1,0 +1,15 @@
+#haut{
+    display: flex;
+    justify-content:space-between;
+}
+
+#haut_mais_pas_trop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#follow{
+    display: flex;
+    justify-content: space-between;
+}
