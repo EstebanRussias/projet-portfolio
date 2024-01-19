@@ -1,3 +1,7 @@
+*{
+    
+}
+
 #haut{
     display: flex;
     justify-content:space-between;
@@ -73,3 +77,47 @@ p{
     border: 0;
 }
 
+#button_fleche ,#button_fleche_cache{
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+#button_fleche_cache{
+    display: none;
+}
+#zone_sugestion{
+    background-color: brown;
+    display: none;
+}
+
+#zone_sugestion_h{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+#zone_sugestion_b{
+    display: flex;
+
+    justify-content: space-around;
+}
+.card_suggérés{
+    display: flex;
+    width: 190px;
+    background-color: whitesmoke;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card_suggérés img{
+    width: 85%;
+    padding: 5px;
+    
+    border-radius: 50%;
+}
