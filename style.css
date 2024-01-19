@@ -18,14 +18,14 @@ li {
     list-style-type: none;
     margin-left: 1vw;
     margin-right: 1vw;
-    padding: 2px;
+    border-radius: 5px;
+    padding:2px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #sub_button{
     background-color: rgb(220, 32, 32);
     color: white;
-    border-radius: 5px;
     text-align: center;
 
 }
@@ -34,7 +34,21 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: space-around;
+    align-content: space-between;
+}
+
+#button{
+    padding: 2px;
+}
+
+
+.bio {
+    display: flex;
+    align-self: center;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #imagegrid{
