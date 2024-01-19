@@ -55,7 +55,13 @@ p{
 
 #pp{
     border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    border-color: black;
+    border-width: thick;
+
 }
+
 
 #imagegrid{
     width: 100%;
@@ -71,5 +77,10 @@ p{
     background-size: cover;
     margin: 0;
     border: 0;
+}
+
+#icon {
+    height: 2 rem;
+    width: 2rem;
 }
 
