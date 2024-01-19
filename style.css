@@ -1,6 +1,8 @@
 #haut{
     display: flex;
     justify-content:space-between;
+    align-items: center;
+    
 }
 
 #haut_mais_pas_trop{
@@ -51,12 +53,16 @@ p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+#pp{
+    border-radius: 50%;
+}
+
 #imagegrid{
+    width: 100%;
     display: grid;
-    grid-template-columns:auto auto auto ;
-    grid-template-rows:auto auto auto ;
-    width: 33vw;
-    margin: auto;
+    grid-template-columns:33.33% 33.33% 33.33% ;
+    grid-template-rows:auto auto auto;
+    margin: 0px;
 }
 
 #post{
