@@ -13,3 +13,27 @@
     display: flex;
     justify-content: space-between;
 }
+
+li {
+    list-style-type: none;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#sub_button{
+    background-color: rgb(220, 32, 32);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.row_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+}
+
